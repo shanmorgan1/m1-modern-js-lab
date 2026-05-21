@@ -10,3 +10,6 @@ const findUserById = (id) => {
 
   return `User: ${name} | Email: ${email}`;
 };
+
+console.log(findUserById(2));   
+console.log(findUserById(99));  
